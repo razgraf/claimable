@@ -91,4 +91,14 @@ export const csvClaimables = {
   //   claimUrl:
   //     "https://badgerdao.medium.com/digg-at-a-glance-complete-guide-d0dc2c29d303",
   // },
+  pooltogether: {
+    url:
+      "https://gist.githubusercontent.com/razgraf/a0fe61003afa7da1361dae32ac7d3798/raw/07b8b0a822cc44da8c46aecffd1388a2f55926dc/pooltogether_distribution.csv",
+    tokenNamed: "earnings",
+
+    // displayed on UI
+    imgSrc: "/images/csv-claimables/pooltogether.png",
+    claimUrl: "https://app.pooltogether.com/",
+    displayName: "POOL",
+  },
 } as const;
